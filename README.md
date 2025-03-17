@@ -1,12 +1,18 @@
 # My New Project
 
-A Next.js project with a beautiful login page.
+A Next.js project with a complete authentication UI flow.
 
 ## Features
 
 - Modern UI with Tailwind CSS
 - Responsive design
-- Login page with social authentication options
+- Complete authentication flow:
+  - Login page
+  - Sign-up page
+  - Forgot password page
+  - Terms of service page
+  - Privacy policy page
+- Social authentication options (GitHub, Google)
 - Form validation
 - TypeScript support
 
@@ -47,13 +53,31 @@ A Next.js project with a beautiful login page.
 - `/components` - Reusable UI components
 - `/lib` - Utility functions and shared code
 
-## Login Page
+## Authentication Pages
+
+### Login Page
 
 The login page includes:
 - Email and password form
 - Social login options (GitHub, Google)
 - "Forgot password" link
 - Sign up link for new users
+
+### Sign-up Page
+
+The sign-up page includes:
+- Full name, email, password, and confirm password fields
+- Social sign-up options (GitHub, Google)
+- Terms of service and privacy policy checkboxes
+- Login link for existing users
+
+### Forgot Password Page
+
+A simple form to enter email address and request a password reset link.
+
+### Terms of Service & Privacy Policy
+
+Detailed pages outlining the terms of use and privacy policies.
 
 ## License
 
